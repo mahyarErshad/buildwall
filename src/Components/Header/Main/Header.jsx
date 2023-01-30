@@ -21,7 +21,13 @@ function Header() {
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
-            <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false"></button>
+            <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false">
+              <div className="flex-center flex-col gap-1">
+                <span className="h-1 w-[1.5625rem] bg-white"></span>
+                <span className="h-1 w-[1.5625rem] bg-white"></span>
+                <span className="h-1 w-[1.5625rem] bg-white"></span>
+              </div>
+            </button>
           </div>
           <div className="flex items-center">
             <div className="hidden lg:block">
