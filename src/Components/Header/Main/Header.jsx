@@ -30,7 +30,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="flex-center">
+          <div onClick={() => window.scrollTo({ top: 0 })} className="flex-center h-full cursor-pointer">
             <img src={logo} alt="Logo" />
           </div>
         </div>
