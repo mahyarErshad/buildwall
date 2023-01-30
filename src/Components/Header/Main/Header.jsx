@@ -10,6 +10,10 @@ function Header() {
     return (
       <>
         <NavLink text="خانه" href="#home" />
+        <NavLink text="دموها" href="#Demos" />
+        <NavLink text="صفحات سفارشی" href="#custom-pages" />
+        <NavLink text="صفحه مقالات" href="#blog-pages" />
+        <NavLink text="صفحات فروشگاهی" href="#store-pages" />
       </>
     );
   };
