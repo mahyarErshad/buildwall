@@ -17,7 +17,7 @@ function Header() {
     );
   };
   return (
-    <header className="min-h-[4.375rem] w-full py-2 bg-secondary">
+    <header className="min-h-[4.375rem] w-full py-2 bg-secondary fixed">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
@@ -30,18 +30,14 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="flex-center gap-3 cursor-pointer h-full hover:text-primary border-black hover:border-primary transition-all duration-300 svg-parent">
+          <div className="flex-center">
             <img src={logo} alt="Logo" />
-            <div className="flex-center gap-1 border-inherit">
-              <h1 className="text-lg font-bold">هامینگ برد</h1>
-              <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-inherit">حرفه ای</span>
-            </div>
           </div>
         </div>
       </div>
       <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
         {() => (
-          <div className={`lg:hidden ${styles.borderBottom} ${styles.bg} -mt-1`} id="mobile-menu">
+          <div className="lg:hidden -mt-1" id="mobile-menu">
             <div ref={React.createRef()} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <NavLinks />
             </div>
