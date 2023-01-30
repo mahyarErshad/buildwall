@@ -1,10 +1,12 @@
 .wrapper:before {
   content: " ";
   display: block;
-  height: 2px;
+  height: 4px;
   background-color: #ffe718;
   opacity: 0;
   transition: all ease 0.3s;
+  position: relative;
+  bottom: -3.25rem;
 }
 .wrapper:hover:before {
   opacity: 1;
