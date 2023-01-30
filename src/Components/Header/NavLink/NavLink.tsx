@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./styles.module.css";
 
 interface props {
   href: string;
@@ -8,8 +9,8 @@ interface props {
 function NavLink(props: props) {
   const { href, text } = props;
   return (
-    <li>
-      <a className="text-white font-bold transition-all duration-300" href={href}>
+    <li className={styles.wrapper}>
+      <a className="text-white font-semibold transition-all duration-300" href={href}>
         {text}
       </a>
     </li>
