@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: Yekan;
-  src: url(../public/assets/fonts/YekanFaNum-Light.woff2);
+  src: url(./assets/font/iranyekanweblightfanum.woff);
   font-weight: 300;
 }
 @font-face {
   font-family: Yekan;
-  src: url(../public/assets/fonts/Yekan-Regular.woff2);
+  src: url(./assets/font/iranyekanwebregularfanum.woff);
   font-weight: 400;
 }
 @font-face {
   font-family: Yekan;
-  src: url(../public/assets/fonts/Yekan-Regular.woff2);
+  src: url(./assets/font/iranyekanwebmediumfanum.woff);
   font-weight: 500;
 }
 @font-face {
   font-family: Yekan;
-  src: url(../public/assets/fonts/Yekan-Bold.woff2);
+  src: url(./assets/font/iranyekanwebboldfanum.woff);
   font-weight: 700;
 }
 :root {
