@@ -1,7 +1,7 @@
 import React, { memo, useState } from "react";
 import { Transition } from "@headlessui/react";
-import { goToTop } from "../../lib/globalFunctions";
 import NavLink from "../NavLink/NavLink";
+import logo from "../../../assets/images/logo.webp";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,9 +17,9 @@ function Header() {
     );
   };
   return (
-    <header className="">
+    <header className="min-h-[4.375rem] w-full py-2 bg-secondary">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
-        <div className="flex items-center justify-between flex-row-reverse h-16">
+        <div className="flex items-center justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
             <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false"></button>
           </div>
@@ -30,8 +30,8 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div onClick={goToTop} className="flex-center gap-3 cursor-pointer h-full hover:text-primary border-black hover:border-primary transition-all duration-300 svg-parent">
-            <Logo className="w-6 h-6" />
+          <div className="flex-center gap-3 cursor-pointer h-full hover:text-primary border-black hover:border-primary transition-all duration-300 svg-parent">
+            <img src={logo} alt="Logo" />
             <div className="flex-center gap-1 border-inherit">
               <h1 className="text-lg font-bold">هامینگ برد</h1>
               <span className="bg-transparent font-bold p-1 text-[0.5625rem] border rounded-[0.625rem] border-inherit">حرفه ای</span>

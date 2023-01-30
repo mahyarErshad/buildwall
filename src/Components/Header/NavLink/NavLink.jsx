@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function NavLink() {
-  return (
-    <div>NavLinks</div>
-  )
+  return <div className="text-white">NavLinks</div>;
 }
 
-export default NavLink
+export default NavLink;
