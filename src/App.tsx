@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./Components/Header/Header";
 
 function App() {
-  return <div className="text-primary">سلام</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
