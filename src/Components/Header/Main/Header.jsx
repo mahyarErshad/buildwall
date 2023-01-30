@@ -1,6 +1,7 @@
 import React, { memo, useState } from "react";
 import { Transition } from "@headlessui/react";
 import NavLink from "../NavLink/NavLink";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import logo from "../../../assets/images/logo.webp";
 
 function Header() {
@@ -21,13 +22,7 @@ function Header() {
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
-            <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false">
-              <div className="w-[1.5625rem] h-[1.5625rem] relative">
-                <span className={`h-1 w-full transition-all duration-500 bg-white block absolute ${!isOpen && "top-0"} ${isOpen && "rotate-[45deg] top-[10px]"}`}></span>
-                <span className={`h-1 w-full transition-all duration-500 bg-white block absolute top-[37%] ${isOpen && "opacity-0"}`}></span>
-                <span className={`h-1 w-full transition-all duration-500 bg-white block absolute ${!isOpen && "top-[18px]"} ${isOpen && "rotate-[-45deg] top-[10px]"}`}></span>
-              </div>
-            </button>
+            <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           </div>
           <div className="flex items-center">
             <div className="hidden lg:block">
