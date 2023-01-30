@@ -20,7 +20,7 @@ function Header() {
   return (
     <header className="min-h-[4.375rem] w-full py-2 bg-secondary fixed">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center lg:flex-row-reverse justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
             <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           </div>
