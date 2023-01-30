@@ -9,7 +9,7 @@ interface props {
 function NavLink(props: props) {
   const { href, text } = props;
   return (
-    <li className={styles.wrapper}>
+    <li className={`${styles.wrapper} cursor-pointer h-full`}>
       <a className="text-white font-semibold transition-all duration-300" href={href}>
         {text}
       </a>

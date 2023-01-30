@@ -1,3 +1,11 @@
-.wrapper{
-    
+.wrapper:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  background-color: #ffe718;
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+.wrapper:hover:before {
+  opacity: 1;
 }
