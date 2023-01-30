@@ -1,32 +1,28 @@
 import React, { memo, useState } from "react";
 import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
-import HeaderNavLinks from "./HeaderNavLinks";
 import { goToTop } from "../../lib/globalFunctions";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import NavLink from "../NavLink/NavLink";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const NavLinks = () => {
     return (
       <>
-        <HeaderNavLinks href="#overview" text="بررسی اجمالی" />
-        <HeaderNavLinks href="#features" text="ویژگی ها" />
-        <HeaderNavLinks text="سوالات متداول" />
-        <HeaderNavLinks href="https://wpmudev.com/docs/wpmu-dev-plugins/hummingbird/" target="_blank" text="مستندات" />
-        <HeaderNavLinks href="https://wpmudev.com/translate/projects/wphb/" target="_blank" text="ترجمه ها" />
+        <NavLink />
+        <NavLink />
+        <NavLink />
+        <NavLink />
+        <NavLink />
       </>
     );
   };
   return (
-    <header className={`${styles.wrapper} shadow-md fixed ${styles.bg} top-0 z-10`}>
+    <header className="">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center justify-between flex-row-reverse h-16">
           <div className="-mr-2 flex lg:hidden">
-            <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false">
-              <FontAwesomeIcon className={isOpen ? styles.menuOpen : styles.menuClose} icon={faChevronDown} />
-            </button>
+            <button onClick={() => setIsOpen((prev) => !prev)} type="button" className="bg-transparent flex-center p-2 rounded-md hover:text-primary transition-all duration-300" aria-controls="mobile-menu" aria-expanded="false"></button>
           </div>
           <div className="flex items-center">
             <div className="hidden lg:block">
