@@ -1,5 +1,4 @@
 import React, { memo, useState } from "react";
-import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import { goToTop } from "../../lib/globalFunctions";
 import NavLink from "../NavLink/NavLink";
