@@ -1,7 +1,17 @@
 import React from "react";
 
-function NavLink() {
-  return <div className="text-white">NavLinks</div>;
+interface props {
+  href: string;
+  text: string;
+}
+
+function NavLink(props: props) {
+  const { href, text } = props;
+  return (
+    <li>
+      <a href={href}>{text}</a>
+    </li>
+  );
 }
 
 export default NavLink;
