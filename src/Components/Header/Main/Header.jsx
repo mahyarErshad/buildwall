@@ -9,8 +9,8 @@ function Header() {
   const NavLinks = () => {
     return (
       <>
-        <NavLink text="خانه" href="#home" />
-        <NavLink text="دموها" href="#Demos" />
+        <NavLink text="صفحه اصلی" href="#home" />
+        <NavLink text="پیش نمایش ها" href="#Demos" />
         <NavLink text="صفحات سفارشی" href="#custom-pages" />
         <NavLink text="صفحه مقالات" href="#blog-pages" />
         <NavLink text="صفحات فروشگاهی" href="#store-pages" />
