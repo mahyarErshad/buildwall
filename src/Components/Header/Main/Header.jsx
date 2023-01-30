@@ -1,5 +1,4 @@
 import React, { memo, useState } from "react";
-import styles from "./header.module.css";
 import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import { Transition } from "@headlessui/react";
 import HeaderNavLinks from "./HeaderNavLinks";
