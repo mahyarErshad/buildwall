@@ -9,11 +9,7 @@ function Header() {
   const NavLinks = () => {
     return (
       <>
-        <NavLink />
-        <NavLink />
-        <NavLink />
-        <NavLink />
-        <NavLink />
+        <NavLink text="خانه" href="#home" />
       </>
     );
   };

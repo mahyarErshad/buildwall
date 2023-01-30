@@ -9,7 +9,9 @@ function NavLink(props: props) {
   const { href, text } = props;
   return (
     <li>
-      <a href={href}>{text}</a>
+      <a className="text-white font-bold transition-all duration-300" href={href}>
+        {text}
+      </a>
     </li>
   );
 }
