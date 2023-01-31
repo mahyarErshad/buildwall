@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css"
 
-function NeonButton() {
+interface props{
+    text: String;
+    href: String;
+}
+function NeonButton(props:props) {
   return (
       <a className={styles.btn} href="#">
         <span></span>
