@@ -41,7 +41,7 @@ html,
 body,
 #root {
   min-width: 376px;
-  background-color: var(--secondary-color);
+  background-color: #000;
 }
 .flex-center {
   display: flex;
