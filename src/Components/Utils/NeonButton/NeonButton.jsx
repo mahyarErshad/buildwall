@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import styles from "./styles.module.css"
 
 function NeonButton() {
   return (
-    <div>NeonButton</div>
-  )
+      <a className={styles.btn} href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Neon Button
+      </a>
+  );
 }
 
-export default NeonButton
+export default NeonButton;
