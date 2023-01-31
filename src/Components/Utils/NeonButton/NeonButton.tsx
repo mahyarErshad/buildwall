@@ -1,19 +1,19 @@
 import React from "react";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
-interface props{
-    text: String;
-    href: String;
+interface props {
+  text: string;
+  href?: string;
 }
-function NeonButton(props:props) {
+function NeonButton(props: props) {
   return (
-      <a className={styles.btn} href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Neon Button
-      </a>
+    <a className={styles.btn} href={props.href || "#"}>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      {props.text}
+    </a>
   );
 }
 
