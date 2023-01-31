@@ -2,7 +2,9 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div>HeroSection</div>
+    <section className='mt-20 wrapper'>
+
+    </section>
   )
 }
 
