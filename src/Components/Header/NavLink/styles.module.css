@@ -2,7 +2,7 @@
   content: " ";
   display: block;
   height: 4px;
-  background-color: #ffe718;
+  background-color: rgb(243, 241, 241);
   opacity: 0;
   transition: all ease 0.3s;
   position: relative;
