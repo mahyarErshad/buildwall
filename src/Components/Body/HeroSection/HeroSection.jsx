@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
+import headerImage from "../../../assets/images/headerFrontImage.webp"
 
 function HeroSection() {
   return (
