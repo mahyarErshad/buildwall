@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 
 function HeroSection() {
   return (
-    <section className={`mt-20 ${styles.wrapper}`}>
+    <section className={`pt-20 ${styles.wrapper} w-full h-full`}>
 
     </section>
   )
