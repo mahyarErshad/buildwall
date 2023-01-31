@@ -9,7 +9,7 @@ interface props {
 }
 function NeonButton(props: props) {
   return (
-    <a target={props.target || ""} className={`${styles.btn} ${props.className} max-md:bg-primary md:bg-transparent max-md:text-customBlack shadow-xl md:text-white`} href={props.href || "#"}>
+    <a target={props.target || ""} className={`${styles.btn} ${props.className} max-md:bg-primary md:bg-transparent max-md:text-customBlack md:text-white`} href={props.href || "#"}>
       <span></span>
       <span></span>
       <span></span>
