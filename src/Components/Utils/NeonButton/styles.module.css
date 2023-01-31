@@ -10,9 +10,9 @@
   letter-spacing: 4px;
 }
 .btn:hover {
-  background: #f4d03f;
+  background: #ffe618;
   color: #000;
-  box-shadow: 0px 0px 10px #f4d03f, 0px 0px 40px#F4D03F, 0px 0px 80px #f4d03f;
+  box-shadow: 0px 0px 10px #ffe618, 0px 0px 40px#ffe618, 0px 0px 80px #ffe618;
   transition-delay: 1s;
 }
 .btn span {
@@ -24,7 +24,7 @@
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #f4d03f);
+  background: linear-gradient(90deg, transparent, #ffe618);
 }
 
 .btn:hover span:nth-child(1) {
@@ -37,7 +37,7 @@
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #f4d03f);
+  background: linear-gradient(270deg, transparent, #ffe618);
 }
 
 .btn:hover span:nth-child(3) {
@@ -51,7 +51,7 @@
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #f4d03f);
+  background: linear-gradient(180deg, transparent, #ffe618);
 }
 
 .btn:hover span:nth-child(2) {
@@ -65,7 +65,7 @@
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #f4d03f);
+  background: linear-gradient(360deg, transparent, #ffe618);
 }
 
 .btn:hover span:nth-child(4) {
