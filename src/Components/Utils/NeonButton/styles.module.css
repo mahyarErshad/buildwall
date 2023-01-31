@@ -1,13 +1,12 @@
 .btn {
-  margin-left: 20px;
   text-decoration: none;
   position: relative;
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   overflow: hidden;
   transition: 0.2s all;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 4px;
+  background-color: #222930;
 }
 .btn:hover {
   background: #ffe618;
