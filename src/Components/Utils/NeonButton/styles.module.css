@@ -20,7 +20,7 @@
   top: 0px;
   left: -100%;
   width: 100%;
-  height: 4px;
+  height: 2px;
   background: linear-gradient(90deg, transparent, #ffe618);
 }
 
@@ -33,7 +33,7 @@
   bottom: 0px;
   right: -100%;
   width: 100%;
-  height: 4px;
+  height: 2px;
   background: linear-gradient(270deg, transparent, #ffe618);
 }
 
@@ -46,7 +46,7 @@
 .btn span:nth-child(2) {
   top: -100%;
   right: 0;
-  width: 4px;
+  width: 2px;
   height: 100%;
   background: linear-gradient(180deg, transparent, #ffe618);
 }
@@ -60,7 +60,7 @@
 .btn span:nth-child(4) {
   bottom: -100%;
   left: 0;
-  width: 4px;
+  width: 2px;
   height: 100%;
   background: linear-gradient(360deg, transparent, #ffe618);
 }
@@ -70,8 +70,10 @@
   transition: 0.5s;
   transition-delay: 0.75s;
 }
-.smallSizes {
-  background: #ffe618;
-  color: #000;
-  box-shadow: 0px 0px 10px #ffe618, 0px 0px 40px#ffe618, 0px 0px 80px #ffe618;
+@media only screen and (max-width: 768px) {
+  .btn {
+    background: #ffe618;
+    color: #000;
+    box-shadow: 0px 0px 10px #ffe618, 0px 0px 40px#ffe618, 0px 0px 80px #ffe618;
+  }
 }
