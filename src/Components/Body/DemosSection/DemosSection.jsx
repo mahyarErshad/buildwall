@@ -2,12 +2,12 @@ import React from "react";
 
 function DemosSection() {
   return (
-    <section id="demos" className="mt-20 ">
-      <div className="flex-center gap-4 max-w-[33.75rem] flex-wrap">
-        <h3 className="flex-center text-primary max-md:text-[2.5rem] md:text-[5rem]">32</h3>
+    <section id="demos" className="max-md:mt-40 max-lg:mt-52 lg:mt-[17rem] w-full flex-center">
+      <div className="flex-center max-md:flex-col gap-4 px-4">
+        <h3 className="flex-center text-primary text-[5rem]">32</h3>
         <div className="flex-center flex-col gap-4">
-          <h2 className="font-bold text-3xl">دموهای شگفت انگیز در انتظار شما هستند!</h2>
-          <h3 className="text-[#5f656d] text-sm">پوسته های منحصر به فرد را برای چندین موضوع ساخت و ساز در این یک موضوع پیدا کنید!</h3>
+          <h2 className="font-bold text-white text-3xl">دموی شگفت انگیز در انتظار شما هستند!</h2>
+          <h3 className="text-white text-sm">پوسته های منحصر به فرد را برای چندین موضوع ساخت و ساز در این یک موضوع پیدا کنید!</h3>
         </div>
       </div>
     </section>
