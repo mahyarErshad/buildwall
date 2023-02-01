@@ -51,6 +51,9 @@ body,
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
 }
+li {
+  list-style-type: none;
+}
 .flex-center {
   display: flex;
   justify-content: center;
