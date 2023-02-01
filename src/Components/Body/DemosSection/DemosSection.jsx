@@ -3,7 +3,7 @@ import NeonButton from "../../Utils/NeonButton/NeonButton";
 
 function DemosSection() {
   return (
-    <section id="demos" className="max-md:mt-40 max-lg:mt-52 lg:mt-[17rem] w-full flex-center">
+    <section id="demos" className="max-md:mt-40 max-lg:mt-52 lg:mt-[17rem] w-full flex-center flex-col">
       <div className="flex-center max-md:flex-col gap-4 px-4 mb-12">
         <h3 className="flex-center text-primary text-[5rem]">32</h3>
         <div className="flex max-md:items-center md:items-start justify-center flex-col gap-4">
@@ -14,7 +14,7 @@ function DemosSection() {
       <section className="w-full">
         <figure className="flex-center flex-col gap-4">
           <img src="https://ld-wp73.template-help.com/buildwall/landing/images/skin-1.png" alt="test" />
-          <h2 className="text-sm">ساخت و ساز</h2>
+          <h2 className="mb-4">ساخت و ساز</h2>
           <NeonButton />
         </figure>
       </section>
