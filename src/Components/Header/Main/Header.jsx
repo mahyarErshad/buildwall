@@ -18,7 +18,7 @@ function Header() {
     );
   };
   return (
-    <header className="min-h-[4.375rem] w-full py-2 bg-secondary shadow-lg fixed top-0">
+    <header className="min-h-[4.375rem] w-full py-2 bg-secondary shadow-lg z-50 fixed top-0">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 px-4">
         <div className="flex items-center lg:flex-row-reverse justify-between h-16">
           <div className="-mr-2 flex lg:hidden">
