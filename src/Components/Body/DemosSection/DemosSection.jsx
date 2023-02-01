@@ -1,4 +1,5 @@
 import React from "react";
+import NeonButton from "../../Utils/NeonButton/NeonButton";
 
 function DemosSection() {
   return (
@@ -10,6 +11,13 @@ function DemosSection() {
           <h3 className="text-white text-sm">پوسته های منحصر به فرد را برای چندین موضوع ساخت و ساز در این یک موضوع پیدا کنید!</h3>
         </div>
       </div>
+      <section className="w-full">
+        <figure className="flex-center flex-col gap-4">
+          <img src="https://ld-wp73.template-help.com/buildwall/landing/images/skin-1.png" alt="test" />
+          <h2 className="text-sm">ساخت و ساز</h2>
+          <NeonButton />
+        </figure>
+      </section>
     </section>
   );
 }

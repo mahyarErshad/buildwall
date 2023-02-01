@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 
 interface props {
-  text: string;
+  text?: string;
   href?: string;
   className?: string;
   target?: "_blank";
@@ -14,7 +14,7 @@ function NeonButton(props: props) {
       <span></span>
       <span></span>
       <span></span>
-      {props.text}
+      {props.text || "مشاهده دمو"}
     </a>
   );
 }
