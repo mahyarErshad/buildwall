@@ -1,12 +1,14 @@
-import React from 'react'
-import HeroSection from '../HeroSection/HeroSection'
+import React from "react";
+import DemosSection from "../DemosSection/DemosSection";
+import HeroSection from "../HeroSection/HeroSection";
 
 function MainBody() {
   return (
     <>
-        <HeroSection />
+      <HeroSection />
+      <DemosSection />
     </>
-  )
+  );
 }
 
-export default MainBody
+export default MainBody;
