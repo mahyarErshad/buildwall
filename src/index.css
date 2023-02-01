@@ -48,3 +48,9 @@ body,
   justify-content: center;
   align-items: center;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--primary-color);
+}
