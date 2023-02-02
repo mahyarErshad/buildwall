@@ -9,8 +9,8 @@ interface props {
 function BuiltWithElementor(props: props) {
   return (
     <li className="flex-center gap-3">
-      <FontAwesomeIcon className="text-primary" icon={faCheck} />
-      <span>{props.text}</span>
+      <FontAwesomeIcon fill="#ffe618" className="w-6 h-6" icon={faCheck} />
+      <span className="text-sm">{props.text}</span>
     </li>
   );
 }
