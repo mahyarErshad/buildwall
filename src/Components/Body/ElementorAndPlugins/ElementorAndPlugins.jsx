@@ -1,5 +1,6 @@
 import React from "react";
 import BuiltWithElementor from "./Cards/BuiltWithElementor";
+import ElementorAndPluginsBanner from "../../../assets/images/ElementorAndPluginsBanner.webp"
 
 function ElementorAndPlugins() {
   return (
@@ -12,6 +13,7 @@ function ElementorAndPlugins() {
           <BuiltWithElementor text="بیش از 50 ویجت اضافی" />
         </ul>
       </div>
+      
     </section>
   );
 }
