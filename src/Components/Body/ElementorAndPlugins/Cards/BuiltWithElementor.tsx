@@ -10,7 +10,7 @@ function BuiltWithElementor(props:props) {
   return (
     <div className="flex-center gap-3">
       <FontAwesomeIcon className="text-primary" icon={faCheck} />
-      <h3></h3>
+      <h3>{props.text}</h3>
     </div>
   );
 }
