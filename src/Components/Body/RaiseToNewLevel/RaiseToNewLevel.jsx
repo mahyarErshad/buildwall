@@ -5,6 +5,7 @@ import masterYourProject from "../../../assets/images/masterYourProject.webp";
 import sellWithWoocommerce from "../../../assets/images/sellWithWoocommerce.webp";
 import RaiseToNewLevelCard from "./RaiseToNewLevelCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import RaiseToNewLevelBottomCard from "./RaiseToNewLevelBottomCard";
 
 function RaiseToNewLevel() {
   return (
@@ -18,11 +19,7 @@ function RaiseToNewLevel() {
       <RaiseToNewLevelCard reverse title="به پروژه های خود مسلط شوید" description="بیلدوال به پروژه های پیشرفته مجهز شده است، پروژه های شما را به نمایش می گذارد و نقاط قوت شرکت ساخت و ساز شما را نشان می دهد. شما می توانید طرح بندی پروژه ها را با توجه به خواسته های خود انتخاب کنید." icon={faBuilding} image={masterYourProject} />
       <RaiseToNewLevelCard title="فروش موثر با ووکامرس" description="هیچ چیز ساده تر از فروش آنلاین با بسته ووکامرس بیلدوال نیست! کالاهای خود را اضافه کنید، دسته بندی های خود را ایجاد کنید و سود را با فروشگاه الکترونیکی یکپارچه به حداکثر برسانید!" icon={faCartShopping} image={sellWithWoocommerce} />
       <div className="w-full py-12 flex justify-between items-center flex-wrap">
-        <article className="max-md:w-full md:max-w-[23.125rem] flex justify-start items-center flex-col gap-5">
-          <FontAwesomeIcon icon={faScrewdriverWrench} className="w-10 h-10" fill="#ffe618" />
-          <h3 className="text-[1.375rem] font-bold">عنوان</h3>
-          <p className="text-center text-sm">متن</p>
-        </article>
+        <RaiseToNewLevelBottomCard title="" description="" />
       </div>
     </section>
   );
