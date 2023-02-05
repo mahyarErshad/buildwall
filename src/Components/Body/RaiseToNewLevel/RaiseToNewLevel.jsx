@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./styles.module.css";
 
 function RaiseToNewLevel() {
-  return <section className={`${styles.wrapper} h-full min-h-[73.125rem]`}>RaiseToNewLevel</section>;
+  return <section className="max-w-[75rem] flex-center flex-col mt-10">
+  <div></div>
+  </section>;
 }
 
 export default RaiseToNewLevel;
