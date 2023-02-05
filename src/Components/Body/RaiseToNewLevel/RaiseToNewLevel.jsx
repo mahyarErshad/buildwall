@@ -4,7 +4,6 @@ import showCaseServices from "../../../assets/images/showCaseServices.webp";
 import masterYourProject from "../../../assets/images/masterYourProject.webp";
 import sellWithWoocommerce from "../../../assets/images/sellWithWoocommerce.webp";
 import RaiseToNewLevelCard from "./RaiseToNewLevelCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import RaiseToNewLevelBottomCard from "./RaiseToNewLevelBottomCard";
 
 function RaiseToNewLevel() {
@@ -21,7 +20,7 @@ function RaiseToNewLevel() {
       <div className="w-full py-12 flex justify-between items-center flex-wrap">
         <RaiseToNewLevelBottomCard title="لیست قیمت ها" description="این گزینه درجه یک امکان ایجاد و سفارشی کردن لیست قیمت ها را بدون دردسر فراهم می کند. شما قادر خواهید بود به راحتی و بدون نگرانی لیست قیمت های خود را تنظیم و تغییراتی ایجاد کنید!" icon={faCheckToSlot} />
         <RaiseToNewLevelBottomCard title="توصیفات را به نمایش بگذارید" description="این گزینه درجه یک امکان ایجاد و سفارشی کردن لیست قیمت ها را بدون دردسر فراهم می کند. شما قادر خواهید بود به راحتی و بدون نگرانی لیست قیمت های خود را تنظیم و تغییراتی ایجاد کنید!" icon={faThumbsUp} />
-        <RaiseToNewLevelBottomCard title="لیست قیمت ها" description="شما فرصتی عالی برای نمایش بازخوردهای مشتریان راضی خود دارید و تصویر معتبر شرکت خود را برای بازدیدکنندگان جدید شکل می دهید. کلمات خوب خیلی چیزها را می گویند!" icon={faCheckToSlot} />
+        <RaiseToNewLevelBottomCard title="اعضای تیم را معرفی کنید" description="با بیلدوال می‌توانید اطلاعات دقیق و جذابی را در مورد کارمندان به بازدیدکنندگان خود ارائه دهید و کارهایی که انجام می‌دهند و مهارت‌ها، تجربه و قدرت آنها را برجسته کنید." icon={faCheckToSlot} />
       </div>
     </section>
   );
