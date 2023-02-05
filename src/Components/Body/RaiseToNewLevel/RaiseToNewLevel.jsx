@@ -2,6 +2,7 @@ import { faScrewdriverWrench, faBuilding } from "@fortawesome/free-solid-svg-ico
 import React from "react";
 import showCaseServices from "../../../assets/images/showCaseServices.webp";
 import masterYourProject from "../../../assets/images/masterYourProject.webp";
+import sellWithWoocommerce from "../../../assets/images/sellWithWoocommerce.webp";
 import RaiseToNewLevelCard from "./RaiseToNewLevelCard";
 
 function RaiseToNewLevel() {
