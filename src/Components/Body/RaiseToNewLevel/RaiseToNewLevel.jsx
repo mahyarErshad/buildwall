@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './styles.module.css'
 
 function RaiseToNewLevel() {
   return (
-    <div>RaiseToNewLevel</div>
+    <section className={styles.wrapper}>RaiseToNewLevel</section>
   )
 }
 
