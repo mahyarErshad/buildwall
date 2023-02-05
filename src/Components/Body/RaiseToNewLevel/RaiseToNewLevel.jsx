@@ -1,4 +1,4 @@
-import { faScrewdriverWrench, faBuilding, faCartShopping, faCheckToSlot, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faScrewdriverWrench, faBuilding, faCartShopping, faCheckToSlot, faThumbsUp, faUser } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import showCaseServices from "../../../assets/images/showCaseServices.webp";
 import masterYourProject from "../../../assets/images/masterYourProject.webp";
@@ -20,7 +20,7 @@ function RaiseToNewLevel() {
       <div className="w-full py-12 flex justify-between items-center flex-wrap">
         <RaiseToNewLevelBottomCard title="لیست قیمت ها" description="این گزینه درجه یک امکان ایجاد و سفارشی کردن لیست قیمت ها را بدون دردسر فراهم می کند. شما قادر خواهید بود به راحتی و بدون نگرانی لیست قیمت های خود را تنظیم و تغییراتی ایجاد کنید!" icon={faCheckToSlot} />
         <RaiseToNewLevelBottomCard title="توصیفات را به نمایش بگذارید" description="این گزینه درجه یک امکان ایجاد و سفارشی کردن لیست قیمت ها را بدون دردسر فراهم می کند. شما قادر خواهید بود به راحتی و بدون نگرانی لیست قیمت های خود را تنظیم و تغییراتی ایجاد کنید!" icon={faThumbsUp} />
-        <RaiseToNewLevelBottomCard title="اعضای تیم را معرفی کنید" description="با بیلدوال می‌توانید اطلاعات دقیق و جذابی را در مورد کارمندان به بازدیدکنندگان خود ارائه دهید و کارهایی که انجام می‌دهند و مهارت‌ها، تجربه و قدرت آنها را برجسته کنید." icon={faCheckToSlot} />
+        <RaiseToNewLevelBottomCard title="اعضای تیم را معرفی کنید" description="با بیلدوال می‌توانید اطلاعات دقیق و جذابی را در مورد کارمندان به بازدیدکنندگان خود ارائه دهید و کارهایی که انجام می‌دهند و مهارت‌ها، تجربه و قدرت آنها را برجسته کنید." icon={faUser} />
       </div>
     </section>
   );
