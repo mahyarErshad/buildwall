@@ -2,7 +2,7 @@ import React from "react";
 
 function RaiseToNewLevel() {
   return (
-    <section className="max-w-[75rem] flex-center flex-col mt-10 mx-auto px-2">
+    <section className="max-w-[75rem] flex-center flex-col mt-10 mx-auto px-2 gap-4">
       <article className="flex-center flex-col gap-4">
         <h2 className="font-bold text-3xl">ارتقا به سطح بالاتر</h2>
         <h3 className="text-[1.375rem] text-center">کاوش و پیاده سازی فرصت های بی پایان!</h3>
