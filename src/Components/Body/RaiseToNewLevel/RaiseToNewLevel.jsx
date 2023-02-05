@@ -14,6 +14,7 @@ function RaiseToNewLevel() {
       </article>
       <RaiseToNewLevelCard title="خدمات ویترینی" description="خدمات خود را به جذاب ترین شکل نمایش دهید و اطلاعات کاملی در مورد آنچه شرکت شما انجام می دهد به بازدیدکنندگان خود ارائه دهید. طراحی جذاب خدمات هیچ کس را بی تفاوت نمی گذارد!" icon={faScrewdriverWrench} image={showCaseServices} />
       <RaiseToNewLevelCard reverse title="به پروژه های خود مسلط شوید" description="بیلدوال به پروژه های پیشرفته مجهز شده است، پروژه های شما را به نمایش می گذارد و نقاط قوت شرکت ساخت و ساز شما را نشان می دهد. شما می توانید طرح بندی پروژه ها را با توجه به خواسته های خود انتخاب کنید." icon={faBuilding} image={masterYourProject} />
+      <RaiseToNewLevelCard title="فروش موثر با ووکامرس" description="هیچ چیز ساده تر از فروش آنلاین با بسته WooCommerce BuildWall نیست! کالاهای خود را اضافه کنید، دسته بندی های خود را ایجاد کنید و سود را با فروشگاه الکترونیکی یکپارچه به حداکثر برسانید!" icon={faBuilding} image={masterYourProject} />
     </section>
   );
 }
