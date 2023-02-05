@@ -1,4 +1,4 @@
-import { faScrewdriverWrench, faBuilding, faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faScrewdriverWrench, faBuilding, faCartShopping, faCheckToSlot } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import showCaseServices from "../../../assets/images/showCaseServices.webp";
 import masterYourProject from "../../../assets/images/masterYourProject.webp";
@@ -19,7 +19,7 @@ function RaiseToNewLevel() {
       <RaiseToNewLevelCard reverse title="به پروژه های خود مسلط شوید" description="بیلدوال به پروژه های پیشرفته مجهز شده است، پروژه های شما را به نمایش می گذارد و نقاط قوت شرکت ساخت و ساز شما را نشان می دهد. شما می توانید طرح بندی پروژه ها را با توجه به خواسته های خود انتخاب کنید." icon={faBuilding} image={masterYourProject} />
       <RaiseToNewLevelCard title="فروش موثر با ووکامرس" description="هیچ چیز ساده تر از فروش آنلاین با بسته ووکامرس بیلدوال نیست! کالاهای خود را اضافه کنید، دسته بندی های خود را ایجاد کنید و سود را با فروشگاه الکترونیکی یکپارچه به حداکثر برسانید!" icon={faCartShopping} image={sellWithWoocommerce} />
       <div className="w-full py-12 flex justify-between items-center flex-wrap">
-        <RaiseToNewLevelBottomCard title="" description="" />
+        <RaiseToNewLevelBottomCard title="لیست قیمت ها" description="این گزینه درجه یک امکان ایجاد و سفارشی کردن لیست قیمت ها را بدون دردسر فراهم می کند. شما قادر خواهید بود به راحتی و بدون نگرانی لیست قیمت های خود را تنظیم و تغییراتی ایجاد کنید!" icon={faCheckToSlot} />
       </div>
     </section>
   );
