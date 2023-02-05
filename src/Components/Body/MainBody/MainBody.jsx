@@ -2,6 +2,7 @@ import React from "react";
 import DemosSection from "../DemosSection/DemosSection";
 import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
 import HeroSection from "../HeroSection/HeroSection";
+import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
 
 function MainBody() {
   return (
@@ -9,6 +10,7 @@ function MainBody() {
       <HeroSection />
       <DemosSection />
       <ElementorAndPlugins />
+      <RaiseToNewLevel />
     </main>
   );
 }
