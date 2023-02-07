@@ -8,9 +8,9 @@ interface props {
 
 function NonButtonCard(props: props) {
   return (
-    <a href={props.href || "#"} className="lg:w-[16.875rem] md:w-[45%] max-md:w-full max-w-[25rem] flex-center flex-col gap-5">
+    <a href={props.href || "#"} className="lg:w-[16.875rem] md:w-[45%] max-md:w-full max-w-[25rem] flex-center flex-col gap-5 transition-all duration-300 hover:-translate-y-2 hover:text-primary">
       <img className="w-full" src={props.image} alt={props.title} />
-      <h3 className="w-full text-center">{props.title}</h3>
+      <h3 className="w-full text-center text-inherit">{props.title}</h3>
     </a>
   );
 }
