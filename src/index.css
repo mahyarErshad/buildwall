@@ -59,6 +59,9 @@ li {
   justify-content: center;
   align-items: center;
 }
-svg path{
+svg path {
   fill: inherit;
+}
+.NonButtonCard:hover img {
+  transform: translateY(-0.5rem);
 }
