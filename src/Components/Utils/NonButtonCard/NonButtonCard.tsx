@@ -1,10 +1,18 @@
 import React from "react";
 
-function NonButtonCard() {
+interface props {
+  image: string;
+  title: string;
+  href: string;
+}
+
+function NonButtonCard(props: props) {
   return (
     <figure>
-      <img src="" alt="" />
-      <h3></h3>
+      <a>
+        <img src="" alt="" />
+        <h3></h3>
+      </a>
     </figure>
   );
 }
