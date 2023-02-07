@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function NonButtonCard() {
   return (
-    <div>NonButtonCard</div>
-  )
+    <figure>
+      <img src="" alt="" />
+      <h3></h3>
+    </figure>
+  );
 }
 
-export default NonButtonCard
+export default NonButtonCard;
