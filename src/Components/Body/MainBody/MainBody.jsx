@@ -5,6 +5,7 @@ import DemosSection from "../DemosSection/DemosSection";
 import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
 import HeroSection from "../HeroSection/HeroSection";
 import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
+import ShopLayout from "../ShopLayout/ShopLayout";
 
 function MainBody() {
   return (
@@ -15,6 +16,7 @@ function MainBody() {
       <RaiseToNewLevel />
       <CustomPages />
       <BlogLayout />
+      <ShopLayout />
     </main>
   );
 }
