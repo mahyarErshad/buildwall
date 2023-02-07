@@ -2,7 +2,9 @@ import React from 'react'
 
 function ShopLayout() {
   return (
-    <div>ShopLayout</div>
+    <section className="w-full mt-20 flex-center flex-col">
+        
+    </section>
   )
 }
 
