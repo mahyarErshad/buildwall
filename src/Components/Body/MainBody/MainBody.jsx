@@ -1,4 +1,5 @@
 import React from "react";
+import BlogLayout from "../BlogLayout/BlogLayout";
 import CustomPages from "../CustomPages/CustomPages";
 import DemosSection from "../DemosSection/DemosSection";
 import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
@@ -13,6 +14,7 @@ function MainBody() {
       <ElementorAndPlugins />
       <RaiseToNewLevel />
       <CustomPages />
+      <BlogLayout />
     </main>
   );
 }
