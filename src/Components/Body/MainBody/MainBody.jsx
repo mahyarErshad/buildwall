@@ -1,4 +1,5 @@
 import React from "react";
+import CustomPages from "../CustomPages/CustomPages";
 import DemosSection from "../DemosSection/DemosSection";
 import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
 import HeroSection from "../HeroSection/HeroSection";
@@ -11,6 +12,7 @@ function MainBody() {
       <DemosSection />
       <ElementorAndPlugins />
       <RaiseToNewLevel />
+      <CustomPages />
     </main>
   );
 }
