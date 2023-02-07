@@ -3,7 +3,7 @@ import SectionTitle from "../../Utils/SectionTitle/SectionTitle";
 
 function CustomPages() {
   return (
-    <section className="pt-20 w-full px-4">
+    <section className="w-full mt-20 flex-center flex-col">
       <SectionTitle number={30} title="صفحه سفارشی" description="عملکرد و تنوع غنی بیلدوال را کاوش کنید" />
     </section>
   );
