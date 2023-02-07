@@ -1,5 +1,11 @@
 import React from 'react'
 
+interface props {
+    number: string;
+    title: string;
+    description: string;
+}
+
 function SectionTitle() {
   return (
     <div className="flex-center max-md:flex-col gap-4 px-4 mb-12">
