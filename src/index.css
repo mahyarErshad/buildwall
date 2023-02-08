@@ -65,3 +65,6 @@ svg path {
 .NonButtonCard:hover img {
   transform: translateY(-0.5rem);
 }
+.unifiedTheme {
+  background-image: url(./assets/images/unifiedTheme.webp);
+}
