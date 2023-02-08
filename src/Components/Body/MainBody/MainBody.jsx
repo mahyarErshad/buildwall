@@ -6,6 +6,7 @@ import BlogLayout from "../BlogLayout/BlogLayout";
 import CustomPages from "../CustomPages/CustomPages";
 import DemosSection from "../DemosSection/DemosSection";
 import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
+import FullyEditable from "../FullyEditable/FullyEditable";
 import HeroSection from "../HeroSection/HeroSection";
 import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
 import ShopLayout from "../ShopLayout/ShopLayout";
@@ -23,6 +24,7 @@ function MainBody() {
       <BlogLayout />
       <ShopLayout />
       <UnifiedTheme />
+      <FullyEditable />
     </main>
   );
 }
