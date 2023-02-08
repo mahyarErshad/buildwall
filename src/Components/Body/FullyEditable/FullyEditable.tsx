@@ -1,7 +1,13 @@
 import React from "react";
 import fullyEditable from "../../../assets/images/fullyEditable.webp";
 
-function FullyEditable() {
+interface props {
+  title: string;
+  description: string;
+  image: string;
+}
+
+function FullyEditable(props: props) {
   return (
     <section className="py-20 flex-center flex-col w-full bg-white px-4 gap-4">
       <h2 className="text-center text-3xl font-bold text-secondary">هدر و فوتر کاملاً قابل ویرایش</h2>
