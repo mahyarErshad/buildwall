@@ -14,7 +14,7 @@ import UnifiedTheme from "../UnifiedTheme/unifiedTheme";
 function MainBody() {
   return (
     <main className="relative max-md:pb-8 md:pb-12">
-      <ScrollToTop smooth top={500} className="rounded-[50%] bg-primary transition-all duration-300 fill-secondary hover:fill-primary hover:bg-secondary hover:outline outline-1 outline-primary" component={<FontAwesomeIcon className="fill-inherit" icon={faArrowUp} />} />
+      <ScrollToTop smooth top={500} className="rounded-[50%] bg-primary transition-all duration-300 fill-secondary hover:fill-primary hover:bg-secondary outline outline-1 outline-secondary hover:outline-primary" component={<FontAwesomeIcon className="fill-inherit" icon={faArrowUp} />} />
       <HeroSection />
       <DemosSection />
       <ElementorAndPlugins />
