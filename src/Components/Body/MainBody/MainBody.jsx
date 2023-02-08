@@ -24,7 +24,7 @@ function MainBody() {
       <BlogLayout />
       <ShopLayout />
       <UnifiedTheme />
-      <FullyEditable />
+      <FullyEditable title="هدر و فوتر کاملاً قابل ویرایش" description="ایجاد هدر و فوتر با استفاده از رابط کاربری واضح و ساده!" />
     </main>
   );
 }
