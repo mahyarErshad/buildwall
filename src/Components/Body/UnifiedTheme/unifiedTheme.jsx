@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 
 function unifiedTheme() {
   return (
-    <section>
+    <section className={styles.wrapper}>
 
     </section>
   )
