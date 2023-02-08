@@ -5,7 +5,7 @@ interface props {
   title: string;
   description: string;
   image: string;
-  className: string;
+  className?: string;
 }
 
 function unifiedTheme(props: props) {
