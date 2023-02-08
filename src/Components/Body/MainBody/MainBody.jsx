@@ -1,4 +1,7 @@
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 import BlogLayout from "../BlogLayout/BlogLayout";
 import CustomPages from "../CustomPages/CustomPages";
 import DemosSection from "../DemosSection/DemosSection";
@@ -10,6 +13,7 @@ import ShopLayout from "../ShopLayout/ShopLayout";
 function MainBody() {
   return (
     <main className="relative max-md:pb-8 md:pb-12">
+      <ScrollToTop smooth top={500} className="rounded-[50%] bg-primary transition-all duration-300 fill-secondary hover:fill-primary hover:bg-secondary hover:outline outline-1 outline-primary" component={<FontAwesomeIcon className="fill-inherit" icon={faArrowUp} />} />
       <HeroSection />
       <DemosSection />
       <ElementorAndPlugins />
