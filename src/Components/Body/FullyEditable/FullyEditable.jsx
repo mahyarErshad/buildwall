@@ -1,4 +1,5 @@
 import React from "react";
+import fullyEditable from "../../../assets/images/fullyEditable.webp";
 
 function FullyEditable() {
   return (
