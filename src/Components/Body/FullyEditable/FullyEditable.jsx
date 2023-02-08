@@ -2,7 +2,9 @@ import React from 'react'
 
 function FullyEditable() {
   return (
-    <div>FullyEditable</div>
+    <section className='py-20 flex-center flex-col w-full px-4'>
+    
+    </section>
   )
 }
 
