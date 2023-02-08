@@ -9,6 +9,7 @@ import ElementorAndPlugins from "../ElementorAndPlugins/ElementorAndPlugins";
 import HeroSection from "../HeroSection/HeroSection";
 import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
 import ShopLayout from "../ShopLayout/ShopLayout";
+import UnifiedTheme from "../UnifiedTheme/unifiedTheme";
 
 function MainBody() {
   return (
@@ -21,6 +22,7 @@ function MainBody() {
       <CustomPages />
       <BlogLayout />
       <ShopLayout />
+      <UnifiedTheme />
     </main>
   );
 }
