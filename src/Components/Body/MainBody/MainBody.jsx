@@ -12,6 +12,7 @@ import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
 import ShopLayout from "../ShopLayout/ShopLayout";
 import UnifiedTheme from "../UnifiedTheme/unifiedTheme";
 import fullyEditable from "../../../assets/images/fullyEditable.webp";
+import support from "../../../assets/images/support.webp";
 
 function MainBody() {
   return (
@@ -26,7 +27,7 @@ function MainBody() {
       <ShopLayout />
       <UnifiedTheme />
       <FullyEditable title="هدر و فوتر کاملاً قابل ویرایش" description="ایجاد هدر و فوتر با استفاده از رابط کاربری واضح و ساده!" image={fullyEditable} />
-      <FullyEditable title="پشتیبانی 24/7 و مستندات دقیق" description="تمام نگرانی ها را به تیم پشتیبانی 24/5 بسپارید! و اگر سؤالی وجود دارد، می توانید پاسخ را در اسناد منحصر به فرد بسیار دقیق بیابید." image={fullyEditable} />
+      <FullyEditable title="پشتیبانی 24/7 و مستندات دقیق" description="تمام نگرانی ها را به تیم پشتیبانی 24/7 بسپارید! و اگر سؤالی وجود دارد، می توانید پاسخ را در اسناد منحصر به فرد بسیار دقیق بیابید." image={support} />
     </main>
   );
 }
