@@ -28,7 +28,7 @@ function MainBody() {
       <UnifiedTheme title="تم یکپارچه برای همه انواع مشاغل ساختمانی!" description="فروش مقرون به صرفه و عاقلانه با گزینه های فروشگاه الکترونیکی داخلی!" image="unifiedTheme" className="mt-20" />
       <FullyEditable title="هدر و فوتر کاملاً قابل ویرایش" description="ایجاد هدر و فوتر با استفاده از رابط کاربری واضح و ساده!" image={fullyEditable} />
       <FullyEditable title="پشتیبانی 24/7 و مستندات دقیق" description="تمام نگرانی ها را به تیم پشتیبانی 24/7 بسپارید! و اگر سؤالی وجود دارد، می توانید پاسخ را در اسناد منحصر به فرد بسیار دقیق بیابید." image={support} />
-      <UnifiedTheme title="تم یکپارچه برای همه انواع مشاغل ساختمانی!" description="فروش مقرون به صرفه و عاقلانه با گزینه های فروشگاه الکترونیکی داخلی!" image="unifiedTheme" />
+      <UnifiedTheme title="تم یکپارچه برای همه انواع مشاغل ساختمانی!" description="کسب و کار خود را با عملکرد باورنکردنی و رابط کاربری کارآمد تقویت کنید!" image="unifiedTheme" />
     </main>
   );
 }
