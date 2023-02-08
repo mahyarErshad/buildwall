@@ -11,6 +11,7 @@ import HeroSection from "../HeroSection/HeroSection";
 import RaiseToNewLevel from "../RaiseToNewLevel/RaiseToNewLevel";
 import ShopLayout from "../ShopLayout/ShopLayout";
 import UnifiedTheme from "../UnifiedTheme/unifiedTheme";
+import fullyEditable from "../../../assets/images/fullyEditable.webp";
 
 function MainBody() {
   return (
@@ -24,7 +25,7 @@ function MainBody() {
       <BlogLayout />
       <ShopLayout />
       <UnifiedTheme />
-      <FullyEditable title="هدر و فوتر کاملاً قابل ویرایش" description="ایجاد هدر و فوتر با استفاده از رابط کاربری واضح و ساده!" />
+      <FullyEditable title="هدر و فوتر کاملاً قابل ویرایش" description="ایجاد هدر و فوتر با استفاده از رابط کاربری واضح و ساده!" image={fullyEditable} />
     </main>
   );
 }
