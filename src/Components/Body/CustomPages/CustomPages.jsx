@@ -4,6 +4,7 @@ import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
 import about1 from "../../../assets/images/card-images/about1.webp";
 import about2 from "../../../assets/images/card-images/about2.webp";
 import about3 from "../../../assets/images/card-images/about3.webp";
+import service1 from "../../../assets/images/card-images/service1.webp";
 
 function CustomPages() {
   const data = [
@@ -21,6 +22,11 @@ function CustomPages() {
       title: "معرفی 3",
       image: about3,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/about-us-v3/",
+    },
+    {
+      title: "خدمات 1",
+      image: service1,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/services/",
     },
   ];
   return (
