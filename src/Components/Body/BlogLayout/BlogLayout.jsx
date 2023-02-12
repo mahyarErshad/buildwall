@@ -2,12 +2,18 @@ import React from "react";
 import SectionTitle from "../../Utils/SectionTitle/SectionTitle";
 import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
 import listing from "../../../assets/images/card-images/listing.webp";
+import grid from "../../../assets/images/card-images/grid.webp";
 
 function BlogLayout() {
   const data = [
     {
       title: "فهرست کردن",
       image: listing,
+      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+    },
+    {
+      title: "گرید",
+      image: grid,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
   ];
