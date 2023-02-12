@@ -3,6 +3,7 @@ import SectionTitle from "../../Utils/SectionTitle/SectionTitle";
 import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
 import listing from "../../../assets/images/card-images/listing.webp";
 import grid from "../../../assets/images/card-images/grid.webp";
+import masonry from "../../../assets/images/card-images/masonry.webp";
 
 function BlogLayout() {
   const data = [
@@ -14,6 +15,11 @@ function BlogLayout() {
     {
       title: "گرید",
       image: grid,
+      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+    },
+    {
+      title: "بنا",
+      image: masonry,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
   ];
