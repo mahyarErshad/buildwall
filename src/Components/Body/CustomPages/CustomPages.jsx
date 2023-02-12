@@ -18,6 +18,7 @@ import projectSingle2 from "../../../assets/images/card-images/projectSingle2.we
 import projectSingle3 from "../../../assets/images/card-images/projectSingle3.webp";
 import faqs from "../../../assets/images/card-images/faqs.webp";
 import gallery from "../../../assets/images/card-images/gallery.webp";
+import portfolioSingle from "../../../assets/images/card-images/portfolioSingle.webp";
 
 function CustomPages() {
   const data = [
@@ -105,6 +106,11 @@ function CustomPages() {
       title: "گالری",
       image: gallery,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/portfolio/",
+    },
+    {
+      title: "پیش نمایش",
+      image: portfolioSingle,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/preview-image/",
     },
   ];
   return (
