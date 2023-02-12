@@ -1,4 +1,5 @@
 import React from "react";
+import icon1 from "../../../assets/images/icons/1.png";
 
 function IconsSection() {
   return (
@@ -6,7 +7,9 @@ function IconsSection() {
       <h2 className="text-center text-3xl font-bold text-secondary">مجموعه بزرگی از آیکونهای فونت شکل</h2>
       <p className="text-sm text-center text-secondary"> وب سایت خود را با هزاران عنصر جذاب که مخصوص این تم ایجاد شده اند، تجهیز کنید! این آیکون های فونت شکل به عنوان یک گیلاس روی شیرینی در وب سایت شما خواهند بود! </p>
       <div className="max-w-[75rem] flex-center gap-4 flex-wrap">
-      
+        <figure className="w-[6.8rem] h-[6.8rem] border border-[#e9e9f0] flex-center bg-white hover:bg-primary transition-all duration-300">
+          <img className="h-[4.375rem] w-[4.375rem]" src={icon1} alt="" />
+        </figure>
       </div>
     </section>
   );
