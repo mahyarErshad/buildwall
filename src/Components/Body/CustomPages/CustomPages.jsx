@@ -23,6 +23,7 @@ import contacts1 from "../../../assets/images/card-images/contacts1.webp";
 import contacts2 from "../../../assets/images/card-images/contacts2.webp";
 import contacts3 from "../../../assets/images/card-images/contacts3.webp";
 import certifications from "../../../assets/images/card-images/certifications.webp";
+import quote from "../../../assets/images/card-images/quote.webp";
 
 function CustomPages() {
   const data = [
@@ -135,6 +136,11 @@ function CustomPages() {
       title: "گواهینامه ها",
       image: certifications,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/certifications-2/",
+    },
+    {
+      title: "نقل قول",
+      image: quote,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/get-a-quote/",
     },
   ];
   return (
