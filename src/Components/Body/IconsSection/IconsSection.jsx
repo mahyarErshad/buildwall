@@ -31,7 +31,7 @@ function IconsSection() {
         {data.map((item, index) => {
           return (
             <figure key={index} className={`w-[6.8rem] h-[6.8rem] border border-[#e9e9f0] flex-center bg-white hover:bg-primary transition-all duration-300 ${styles.card}`}>
-              <img className="h-[4.375rem] w-[4.375rem] transition-all duration-150" src={item} alt="Theme icon" />;
+              <img className="h-[4.375rem] w-[4.375rem] transition-all duration-150" src={item} alt="Theme icon" />
             </figure>
           );
         })}
