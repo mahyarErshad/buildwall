@@ -1,6 +1,25 @@
 import React from "react";
 import styles from "./styles.module.css";
 import icon1 from "../../../assets/images/icons/1.png";
+import icon2 from "../../../assets/images/icons/2.png";
+import icon3 from "../../../assets/images/icons/3.png";
+import icon4 from "../../../assets/images/icons/4.png";
+import icon5 from "../../../assets/images/icons/5.png";
+import icon6 from "../../../assets/images/icons/6.png";
+import icon7 from "../../../assets/images/icons/7.png";
+import icon8 from "../../../assets/images/icons/8.png";
+import icon9 from "../../../assets/images/icons/9.png";
+import icon10 from "../../../assets/images/icons/10.png";
+import icon11 from "../../../assets/images/icons/11.png";
+import icon12 from "../../../assets/images/icons/12.png";
+import icon13 from "../../../assets/images/icons/13.png";
+import icon14 from "../../../assets/images/icons/14.png";
+import icon15 from "../../../assets/images/icons/15.png";
+import icon16 from "../../../assets/images/icons/16.png";
+import icon17 from "../../../assets/images/icons/17.png";
+import icon18 from "../../../assets/images/icons/18.png";
+import icon19 from "../../../assets/images/icons/19.png";
+import icon20 from "../../../assets/images/icons/20.png";
 
 function IconsSection() {
   return (
