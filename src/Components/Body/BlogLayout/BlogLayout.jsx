@@ -9,7 +9,7 @@ import postSingle from "../../../assets/images/card-images/postSingle.webp";
 function BlogLayout() {
   const data = [
     {
-      title: "فهرست کردن",
+      title: "فهرست",
       image: listing,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
@@ -19,7 +19,7 @@ function BlogLayout() {
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
     {
-      title: "بنا",
+      title: "ماسونری",
       image: masonry,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
