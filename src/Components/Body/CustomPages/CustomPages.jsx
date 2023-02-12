@@ -30,6 +30,7 @@ import partners from "../../../assets/images/card-images/partners.webp";
 import pricing from "../../../assets/images/card-images/pricing.webp";
 import comingSoon from "../../../assets/images/card-images/comingSoon.webp";
 import notFound from "../../../assets/images/card-images/404.webp";
+import maintenance from "../../../assets/images/card-images/maintenance.webp";
 
 function CustomPages() {
   const data = [
@@ -177,6 +178,11 @@ function CustomPages() {
       title: "404",
       image: notFound,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/error404",
+    },
+    {
+      title: "نگهداری",
+      image: maintenance,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/maintenance/",
     },
   ];
   return (
