@@ -4,6 +4,7 @@ import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
 import listing from "../../../assets/images/card-images/listing.webp";
 import grid from "../../../assets/images/card-images/grid.webp";
 import masonry from "../../../assets/images/card-images/masonry.webp";
+import postSingle from "../../../assets/images/card-images/postSingle.webp";
 
 function BlogLayout() {
   const data = [
@@ -20,6 +21,11 @@ function BlogLayout() {
     {
       title: "بنا",
       image: masonry,
+      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+    },
+    {
+      title: "پست تکی",
+      image: postSingle,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
   ];
