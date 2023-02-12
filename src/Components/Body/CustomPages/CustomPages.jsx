@@ -7,8 +7,9 @@ import about3 from "../../../assets/images/card-images/about3.webp";
 import service1 from "../../../assets/images/card-images/service1.webp";
 import service2 from "../../../assets/images/card-images/service2.webp";
 import service3 from "../../../assets/images/card-images/service3.webp";
-import serviceSingle1 from "../../../assets/images/card-images/serviceSingle1.webp"; 
-import serviceSingle2 from "../../../assets/images/card-images/serviceSingle2.webp"; 
+import serviceSingle1 from "../../../assets/images/card-images/serviceSingle1.webp";
+import serviceSingle2 from "../../../assets/images/card-images/serviceSingle2.webp";
+import serviceSingle3 from "../../../assets/images/card-images/serviceSingle3.webp";
 
 function CustomPages() {
   const data = [
@@ -51,6 +52,11 @@ function CustomPages() {
       title: "خدمات تکی 2",
       image: serviceSingle2,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/services/house-renovation/",
+    },
+    {
+      title: "خدمات تکی 3",
+      image: serviceSingle3,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/services/architecture-building/",
     },
   ];
   return (
