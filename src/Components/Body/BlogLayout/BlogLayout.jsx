@@ -1,13 +1,14 @@
 import React from "react";
 import SectionTitle from "../../Utils/SectionTitle/SectionTitle";
 import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
+import listing from "../../../assets/images/card-images/listing.webp";
 
 function BlogLayout() {
   const data = [
     {
-      title: "ساخت و ساز",
-      image: "",
-      href: "https://ld-wp73.template-help.com/buildwall/v3/default/",
+      title: "فهرست کردن",
+      image: listing,
+      href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
   ];
   return (
