@@ -11,22 +11,22 @@ function BlogLayout() {
     {
       title: "فهرست",
       image: listing,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
     {
       title: "گرید",
       image: grid,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
     {
       title: "ماسونری",
       image: masonry,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
     {
       title: "پست تکی",
       image: postSingle,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
   ];
   return (
