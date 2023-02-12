@@ -8,12 +8,12 @@ function ShopLayout() {
     {
       title: "کلکسیون",
       image: listingShop,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
     {
       title: "محصول تکی",
       image: productSingle,
-      href: "https://ld-wp73.template-help.com/buildwall/landing/",
+      href: "https://dana-team.com/products/buildwall/",
     },
   ];
   return (
