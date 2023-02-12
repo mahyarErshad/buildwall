@@ -25,6 +25,7 @@ import contacts3 from "../../../assets/images/card-images/contacts3.webp";
 import certifications from "../../../assets/images/card-images/certifications.webp";
 import quote from "../../../assets/images/card-images/quote.webp";
 import team from "../../../assets/images/card-images/team.webp";
+import teamMember from "../../../assets/images/card-images/teamMember.webp";
 
 function CustomPages() {
   const data = [
@@ -147,6 +148,11 @@ function CustomPages() {
       title: "تیم",
       image: team,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/team-2/",
+    },
+    {
+      title: "اعضای تیم",
+      image: teamMember,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/team-2/single-team/",
     },
   ];
   return (
