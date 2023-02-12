@@ -27,6 +27,7 @@ import quote from "../../../assets/images/card-images/quote.webp";
 import team from "../../../assets/images/card-images/team.webp";
 import teamMember from "../../../assets/images/card-images/teamMember.webp";
 import partners from "../../../assets/images/card-images/partners.webp";
+import pricing from "../../../assets/images/card-images/pricing.webp";
 
 function CustomPages() {
   const data = [
@@ -159,6 +160,11 @@ function CustomPages() {
       title: "شرکای تجاری",
       image: partners,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/partners/",
+    },
+    {
+      title: "قیمت گذاری",
+      image: pricing,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/pricing-2/",
     },
   ];
   return (
