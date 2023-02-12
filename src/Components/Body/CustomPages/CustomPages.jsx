@@ -6,6 +6,7 @@ import about2 from "../../../assets/images/card-images/about2.webp";
 import about3 from "../../../assets/images/card-images/about3.webp";
 import service1 from "../../../assets/images/card-images/service1.webp";
 import service2 from "../../../assets/images/card-images/service2.webp";
+import service3 from "../../../assets/images/card-images/service3.webp";
 
 function CustomPages() {
   const data = [
@@ -33,6 +34,11 @@ function CustomPages() {
       title: "خدمات 2",
       image: service2,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/services-v2/",
+    },
+    {
+      title: "خدمات 3",
+      image: service3,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/services-v3/",
     },
   ];
   return (
