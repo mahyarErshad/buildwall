@@ -15,6 +15,7 @@ import projects2 from "../../../assets/images/card-images/projects2.webp";
 import projects3 from "../../../assets/images/card-images/projects3.webp";
 import projectSingle1 from "../../../assets/images/card-images/projectSingle1.webp";
 import projectSingle2 from "../../../assets/images/card-images/projectSingle2.webp";
+import projectSingle3 from "../../../assets/images/card-images/projectSingle3.webp";
 
 function CustomPages() {
   const data = [
@@ -87,6 +88,11 @@ function CustomPages() {
       title: "پروژه تکی 2",
       image: projectSingle2,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v1/single-project-v2/",
+    },
+    {
+      title: "پروژه تکی 3",
+      image: projectSingle3,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v1/single-project-v3/",
     },
   ];
   return (
