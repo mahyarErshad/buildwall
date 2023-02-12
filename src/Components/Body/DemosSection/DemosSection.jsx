@@ -8,14 +8,14 @@ import image3 from "../../../assets/images/card-images/skin3.webp";
 function DemosSection() {
   const data = [
     {
-      title: "ساخت و ساز",
-      image: image1,
-      href: "https://ld-wp73.template-help.com/buildwall/v3/default/",
-    },
-    {
       title: "باغبانی و منظره",
       image: image2,
       href: "https://ld-wp73.template-help.com/buildwall/v2/gardening/",
+    },
+    {
+      title: "ساخت و ساز",
+      image: image1,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/",
     },
     {
       title: "استودیو معماری و طراحی داخلی مدرن",
