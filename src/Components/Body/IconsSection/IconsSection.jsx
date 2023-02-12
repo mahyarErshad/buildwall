@@ -22,6 +22,7 @@ import icon19 from "../../../assets/images/icons/19.png";
 import icon20 from "../../../assets/images/icons/20.png";
 
 function IconsSection() {
+  const data = [icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8, icon9, icon10, icon11, icon12, icon13, icon14, icon15, icon16, icon17, icon18, icon19, icon20];
   return (
     <section className="py-20 flex-center flex-col w-full bg-white px-4 gap-4">
       <h2 className="text-center text-3xl font-bold text-secondary">مجموعه بزرگی از آیکونهای فونت شکل</h2>
