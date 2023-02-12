@@ -138,7 +138,7 @@ function CustomPages() {
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/certifications-2/",
     },
     {
-      title: "نقل قول",
+      title: "دریافت قیمت",
       image: quote,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/get-a-quote/",
     },
