@@ -7,6 +7,7 @@ import about3 from "../../../assets/images/card-images/about3.webp";
 import service1 from "../../../assets/images/card-images/service1.webp";
 import service2 from "../../../assets/images/card-images/service2.webp";
 import service3 from "../../../assets/images/card-images/service3.webp";
+import serviceSingle1 from "../../../assets/images/card-images/serviceSingle1.webp";
 
 function CustomPages() {
   const data = [
@@ -39,6 +40,11 @@ function CustomPages() {
       title: "خدمات 3",
       image: service3,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/services-v3/",
+    },
+    {
+      title: "خدمات تکی 1",
+      image: serviceSingle1,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/services/construction-consultation/",
     },
   ];
   return (
