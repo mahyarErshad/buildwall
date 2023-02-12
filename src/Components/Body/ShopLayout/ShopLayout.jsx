@@ -1,6 +1,7 @@
 import React from "react";
 import NonButtonCard from "../../Utils/NonButtonCard/NonButtonCard";
-import listingShop from "../../../assets/images/card-images/listingShop.webp"
+import listingShop from "../../../assets/images/card-images/listingShop.webp";
+import productSingle from "../../../assets/images/card-images/productSingle.webp";
 
 function ShopLayout() {
   const data = [
@@ -10,8 +11,8 @@ function ShopLayout() {
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
     {
-      title: "کلکسیون",
-      image: listingShop,
+      title: "محصول تکی",
+      image: productSingle,
       href: "https://ld-wp73.template-help.com/buildwall/landing/",
     },
   ];
