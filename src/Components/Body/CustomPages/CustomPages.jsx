@@ -24,6 +24,7 @@ import contacts2 from "../../../assets/images/card-images/contacts2.webp";
 import contacts3 from "../../../assets/images/card-images/contacts3.webp";
 import certifications from "../../../assets/images/card-images/certifications.webp";
 import quote from "../../../assets/images/card-images/quote.webp";
+import team from "../../../assets/images/card-images/team.webp";
 
 function CustomPages() {
   const data = [
@@ -141,6 +142,11 @@ function CustomPages() {
       title: "دریافت قیمت",
       image: quote,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/get-a-quote/",
+    },
+    {
+      title: "تیم",
+      image: team,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/team-2/",
     },
   ];
   return (
