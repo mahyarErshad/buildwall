@@ -16,6 +16,7 @@ import projects3 from "../../../assets/images/card-images/projects3.webp";
 import projectSingle1 from "../../../assets/images/card-images/projectSingle1.webp";
 import projectSingle2 from "../../../assets/images/card-images/projectSingle2.webp";
 import projectSingle3 from "../../../assets/images/card-images/projectSingle3.webp";
+import faqs from "../../../assets/images/card-images/faqs.webp";
 
 function CustomPages() {
   const data = [
@@ -93,6 +94,11 @@ function CustomPages() {
       title: "پروژه تکی 3",
       image: projectSingle3,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v1/single-project-v3/",
+    },
+    {
+      title: "سوالات متداول",
+      image: faqs,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/faq/",
     },
   ];
   return (
