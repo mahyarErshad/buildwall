@@ -18,7 +18,7 @@ import IconsSection from "../IconsSection/IconsSection";
 function MainBody() {
   return (
     <main className="relative">
-      <ScrollToTop smooth top={500} className="rounded-[50%] bg-primary transition-all duration-300 fill-secondary hover:fill-primary hover:bg-secondary outline outline-1 outline-secondary hover:outline-primary" component={<FontAwesomeIcon className="fill-inherit" icon={faArrowUp} />} />
+      <ScrollToTop smooth top={500} component={<FontAwesomeIcon className="fill-inherit" icon={faArrowUp} />} />
       <HeroSection />
       <DemosSection />
       <ElementorAndPlugins />

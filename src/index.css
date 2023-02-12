@@ -71,3 +71,15 @@ svg path {
 .unifiedTheme2 {
   background-image: url(./assets/images/unifiedTheme2.webp);
 }
+.scroll-to-top {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transition: all ease 300ms;
+  fill: var(--secondary-color);
+  outline: 1px var(--secondary-color) solid;
+}
+.scroll-to-top:hover {
+  fill: var(--primary-color);
+  background-color: var(--secondary-color);
+  outline: 1px solid var(--primary-color);
+}
