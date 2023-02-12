@@ -11,6 +11,8 @@ import serviceSingle1 from "../../../assets/images/card-images/serviceSingle1.we
 import serviceSingle2 from "../../../assets/images/card-images/serviceSingle2.webp";
 import serviceSingle3 from "../../../assets/images/card-images/serviceSingle3.webp";
 import projects1 from "../../../assets/images/card-images/projects1.webp";
+import projects2 from "../../../assets/images/card-images/projects2.webp";
+import projects3 from "../../../assets/images/card-images/projects3.webp";
 
 function CustomPages() {
   const data = [
@@ -63,6 +65,16 @@ function CustomPages() {
       title: "پروژه 1",
       image: projects1,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v1/",
+    },
+    {
+      title: "پروژه 2",
+      image: projects2,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v2/",
+    },
+    {
+      title: "پروژه 3",
+      image: projects3,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/projects-v3/",
     },
   ];
   return (
