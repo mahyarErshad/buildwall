@@ -25,7 +25,7 @@ function DemosSection() {
   ];
   return (
     <section id="demos" className="max-md:mt-40 max-lg:mt-52 lg:mt-[17rem] w-full flex-center flex-col">
-      <SectionTitle number="32" title="دموی شگفت انگیز در انتظار شما هستند!" description="پوسته های منحصر به فرد را برای چندین موضوع ساخت و ساز در این یک موضوع پیدا کنید!" />
+      <SectionTitle number="3" title="دموی شگفت انگیز در انتظار شماست!" description="پوسته های منحصر به فرد را برای چندین موضوع ساخت و ساز در این یک موضوع پیدا کنید!" />
       <section className="w-full flex-center gap-6 flex-wrap">
         {data.map((item, index) => {
           return <DemoSectionCard key={index} title={item.title} image={item.image} href={item.href} />;
