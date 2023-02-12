@@ -21,6 +21,7 @@ import gallery from "../../../assets/images/card-images/gallery.webp";
 import portfolioSingle from "../../../assets/images/card-images/portfolioSingle.webp";
 import contacts1 from "../../../assets/images/card-images/contacts1.webp";
 import contacts2 from "../../../assets/images/card-images/contacts2.webp";
+import contacts3 from "../../../assets/images/card-images/contacts3.webp";
 
 function CustomPages() {
   const data = [
@@ -123,6 +124,11 @@ function CustomPages() {
       title: "تماس با ما 2",
       image: contacts2,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/contact-v2/",
+    },
+    {
+      title: "تماس با ما 3",
+      image: contacts3,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/contact-v3/",
     },
   ];
   return (
