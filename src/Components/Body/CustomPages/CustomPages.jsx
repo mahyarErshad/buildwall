@@ -17,6 +17,7 @@ import projectSingle1 from "../../../assets/images/card-images/projectSingle1.we
 import projectSingle2 from "../../../assets/images/card-images/projectSingle2.webp";
 import projectSingle3 from "../../../assets/images/card-images/projectSingle3.webp";
 import faqs from "../../../assets/images/card-images/faqs.webp";
+import gallery from "../../../assets/images/card-images/gallery.webp";
 
 function CustomPages() {
   const data = [
@@ -99,6 +100,11 @@ function CustomPages() {
       title: "سوالات متداول",
       image: faqs,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/faq/",
+    },
+    {
+      title: "گالری",
+      image: gallery,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/portfolio/",
     },
   ];
   return (
