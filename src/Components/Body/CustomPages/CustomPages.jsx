@@ -28,6 +28,7 @@ import team from "../../../assets/images/card-images/team.webp";
 import teamMember from "../../../assets/images/card-images/teamMember.webp";
 import partners from "../../../assets/images/card-images/partners.webp";
 import pricing from "../../../assets/images/card-images/pricing.webp";
+import comingSoon from "../../../assets/images/card-images/comingSoon.webp";
 
 function CustomPages() {
   const data = [
@@ -165,6 +166,11 @@ function CustomPages() {
       title: "قیمت گذاری",
       image: pricing,
       href: "https://ld-wp73.template-help.com/buildwall/v3/default/pricing-2/",
+    },
+    {
+      title: "به زودی",
+      image: comingSoon,
+      href: "https://ld-wp73.template-help.com/buildwall/v3/default/coming-soon/",
     },
   ];
   return (
