@@ -187,7 +187,7 @@ function CustomPages() {
   ];
   return (
     <section id="custom-pages" className="w-full mt-20 flex-center flex-col">
-      <SectionTitle number={30} title="صفحه سفارشی" description="عملکرد و تنوع غنی بیلدوال را کاوش کنید" />
+      <SectionTitle number={30} title="صفحه سفارشی" description="عملکرد و تنوع بی نظیر بیلدوال را تجربه کنید" />
       <section className="max-w-[75rem] flex-center gap-6 flex-wrap">
         {data.map((item, index) => {
           return <NonButtonCard key={index} title={item.title} image={item.image} href={item.href} />;
