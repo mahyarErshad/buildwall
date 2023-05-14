@@ -10,7 +10,7 @@ function DemosSection() {
     {
       title: "ساخت و ساز",
       image: image1,
-      href: "https://ld-wp73.template-help.com/buildwall/v3/default/",
+      href: "https://dana-team.com/products/buildwall/",
     },
   ];
   return (
